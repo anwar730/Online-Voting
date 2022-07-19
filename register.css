@@ -1,0 +1,9 @@
+*{background-color:whitesmoke;
+
+}
+.register{display: flex;
+    justify-content: center;
+    height: 500px; width:500px;
+    align-items:center;
+}
+.submit{text-align: center;}
