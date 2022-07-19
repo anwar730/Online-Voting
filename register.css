@@ -13,3 +13,15 @@
     margin: 50px;
     
 }
+.title{margin: 4px;
+color: #002E96;font-weight: 600;}
+
+.name{margin: 5px; background-color: grey;
+}
+.Date{margin: 5px; background-color: grey;}
+.Email{margin: 5px;background-color: grey;}
+.Enter{margin: 5px;background-color: grey;}
+.Re-enter{margin: 5px;background-color: grey;}
+.voter{margin: 5px;background-color: grey;}
+
+.box{background-color: grey;}
