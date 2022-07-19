@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.home h1{
+    font-size: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+    color:#002E96;
+    margin-top:50px;
+    
+   
+    
+}
+.team{
+    display: flex;
+    text-align: center;
+    width:auto
+}
+.team .team_member{
+    background: grey;
+    margin: 5px;
+    margin-bottom: 100px;
+    width: 600px;
+    height: 400px;
+}
+
