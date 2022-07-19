@@ -6,4 +6,9 @@
     height: 500px; width:500px;
     align-items:center;
 }
-.submit{text-align: center;}
+.submit{
+    text-align: center;
+    background-color: #002E96;
+    color: white;
+    
+}
