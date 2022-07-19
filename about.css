@@ -1,7 +1,13 @@
 #pie{
-    font-size: 39px;
-   text-align: right;
+    font-size: 59px;
+   text-align: center;
+   margin-top: 160px;
+   color: #002e96;
 
+}
+
+.about{
+    margin-top: 150px;
 }
 
 .people p{
@@ -42,4 +48,37 @@
 }
 .id{
     display: flex;
+    margin-top: 10px;
+    margin-left: 340px;
+    
+    
+}
+.oly{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 320px;
+  
+   
+    
+    
+}
+.oly img{
+    height: 270px;
+    width: 25%;
+    align-items: center;
+    padding: 10px;
+}
+.id img{
+    height: 270px;
+    width: 25%;
+    align-items: center;
+}
+.id p{
+    font-size: 30px;
+    color: #002e96;
+
+}
+.oly p{
+    font-size: 30px;
+    color: #002e96;
 }
