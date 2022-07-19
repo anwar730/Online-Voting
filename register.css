@@ -27,22 +27,26 @@ body{background-color: whitesmoke;}
 
 .register{display: flex;
     justify-content: center;
-    align-items:center;}
+    align-items:center;
+margin-top: 130px;}
 .submit{background-color:darkgray ;}
 .title{margin: 4px;
 color: #002E96;font-weight: 600;}
 
 .name{margin: 5px; background-color:darkgray;
+    font-weight: 700;
 }
-.Date{margin: 5px; background-color:darkgray;}
-.Email{margin: 5px;background-color: darkgray;}
-.Enter{margin: 5px;background-color: darkgray;}
-.Re-enter{margin: 5px;background-color:darkgray;}
-.voter{margin:5px;background-color:darkgray;}
+.Date{margin: 5px; background-color:darkgray;font-weight: 700;}
+.Email{margin: 5px;background-color: darkgray; font-weight: 700;}
+.Enter{margin: 5px;background-color: darkgray; font-weight: 700;}
+.Re-enter{margin: 5px;background-color:darkgray; font-weight: 700;}
+.voter{margin:5px;background-color:darkgray; font-weight: 700;}
 
-.box{background-color: darkgray;
-margin: 0px;padding: 0px;}
+.box{background-color: darkgray;padding-left: 0;padding-right: 0px;padding-bottom: 0px;
+  height: 310px;
+width: 300px;}
 
 button{background-color: #002E96;
 color: white; margin-top: 10px;
-margin-left: 60px; margin-bottom: 0px;}
+margin-left: 60px; margin-bottom: 0px;
+font-weight: 1000;}
