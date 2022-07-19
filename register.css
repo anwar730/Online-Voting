@@ -3,25 +3,21 @@
 }
 .register{display: flex;
     justify-content: center;
-    height: 500px; width:500px;
-    align-items:center;
-}
-.submit{
-    text-align: center;
-    background-color: #002E96;
-    color: white;
-    margin: 50px;
-    
-}
+    align-items:center;}
+.submit{background-color:darkgray ;
+    color: white;}
 .title{margin: 4px;
 color: #002E96;font-weight: 600;}
 
-.name{margin: 5px; background-color: grey;
+.name{margin: 5px; background-color:darkgray;
 }
-.Date{margin: 5px; background-color: grey;}
-.Email{margin: 5px;background-color: grey;}
-.Enter{margin: 5px;background-color: grey;}
-.Re-enter{margin: 5px;background-color: grey;}
-.voter{margin: 5px;background-color: grey;}
+.Date{margin: 5px; background-color:darkgray;}
+.Email{margin: 5px;background-color: darkgray;}
+.Enter{margin: 5px;background-color: darkgray;}
+.Re-enter{margin: 5px;background-color:darkgray;}
+.voter{margin:5px;background-color:darkgray;}
 
-.box{background-color: grey;}
+.box{background-color: darkgray;
+margin: 0px;padding: 0px;}
+
+button{background-color: #002E96;}
