@@ -50,5 +50,4 @@ button{background-color: #002E96;
 color: white; margin-top: 10px;
 margin-left: 60px; margin-bottom: 0px;
 font-weight: 1000;}
-
-.steps{box-sizing: border-box}
+.steps{box-sizing: border-box;margin-top: 10px; margin-left: 40%; margin-bottom: 30px;}
