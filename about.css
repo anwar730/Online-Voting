@@ -40,3 +40,6 @@
     text-decoration: none;
     font-size: 20px;
 }
+.id{
+    display: flex;
+}
