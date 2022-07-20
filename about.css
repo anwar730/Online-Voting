@@ -82,3 +82,51 @@
     font-size: 30px;
     color: #002e96;
 }
+.footer{
+    display: flex;
+    background-color: #002e96;
+    color: white;
+    justify-content: space-around;
+    margin-top: 150px;
+    height: 400px;
+    align-items: center;
+
+}
+.why h3{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+.why p{
+    text-align: center;
+
+}
+.location{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+
+}
+.number{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+.email{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+.follow i{
+    padding-top: 20px;
+}
+.follow p{
+    font-weight: bold;
+    font-size: 17px;
+
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
