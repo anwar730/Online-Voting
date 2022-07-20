@@ -14,9 +14,9 @@ body{
     display: flex;
     justify-content: space-around;
     position: absolute;
-width: 100%;
-height: 100px;
-left: -63px;
+    width: 100%;
+   height: 100px;
+   left: -63px;
 top: 18px;
 
 background: #F5F5F5;
@@ -51,7 +51,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .img{
-    margin-top:250px;
+    margin-top:350px;
     
 }
 img img{
@@ -85,21 +85,25 @@ img img{
     
 }
 
+
 .reg{
   font-size: 20px;
-  margin-left:1400px;
+  margin-left:1300px;
   padding-top: 70px;
 
 }
+
 #log{
     
-    color: #002E96;
+    color: white;
+    background-color: #002E96;
     font-size: 20px;
     border-radius: 7px;
-    margin: 20px 130px; 
-    padding: 10px 20px;
-
-    
+    /*padding-left: 170px;*/
+    margin: 10px 280px;
+    padding: 5px 20px;
+    text-decoration: none;
+    border: 1px solid;
 }
 .login h3{
     font-size:30px;
