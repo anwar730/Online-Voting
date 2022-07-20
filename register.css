@@ -65,6 +65,7 @@ border: none;
 .steps h1{
   margin: 30px 0px;
   font-size: 40px;
+  text-decoration: underline;
 }
 h3{color: #002E96;}
 
