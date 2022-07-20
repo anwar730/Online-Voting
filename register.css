@@ -51,10 +51,10 @@ padding-bottom: 30px;
 button{
   background-color: #002E96;
 color: white; margin-top: 10px;
-margin-left: 180px; margin-bottom: 0px;
-font-weight: 1000;
-padding: 10px 20px;
-border: none;
+margin-left:100px;  margin-right:100px; margin-bottom: 0px;
+font-weight: 1000px;
+padding: 5px 10px;
+
 }
 .box{
   display: flex;
