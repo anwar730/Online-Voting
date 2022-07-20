@@ -19,8 +19,8 @@ body{
     background: #ffff;
     margin: 5px;
     margin-bottom: 100px;
-    width: 700px;
-    height: 600px;
+    width: 750px;
+    height: 700px;
     line-height: 20px;
     position: relative;
     border-radius: 7px;
@@ -40,8 +40,8 @@ body{
 .team .team_member h3{
     color: blue;
     font-size: 50px;
-    margin-top: 140px;
-    margin-bottom: 60px;
+    margin-top: 65px;
+    margin-bottom: 40px;
 }
 .nav-bar{
     display: flex;
@@ -125,6 +125,9 @@ padding-top: 20px;
     padding: 10px;
 
 }
+
+
+
 
 
 
