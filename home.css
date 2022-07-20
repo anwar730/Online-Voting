@@ -30,6 +30,7 @@ body{
     background-size: cover;
     background-position: center center;
     text-align: center;
+    cursor: pointer;
     
 
    
@@ -142,6 +143,19 @@ padding-top: 20px;
 .team_image{
     padding-top: 20px;
 
+}
+.vote{
+    height: 200px;
+}
+
+.vote button{
+    padding:20px 50px ;
+    background-color: #002E96;
+    color: white;
+    margin-left: 800px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
 }
 
 
