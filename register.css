@@ -48,12 +48,15 @@ font-size: 40px;
 padding-bottom: 30px;
 }
 
-button{
+#submit{
   background-color: #002E96;
-color: white; margin-top: 10px;
-margin-left:100px;  margin-right:100px; margin-bottom: 0px;
+color: white;
+ margin:10px 280px; 
 font-weight: 1000px;
-padding: 5px 10px;
+padding: 5px 20px;
+text-decoration: none;
+border: 1px solid;
+border-radius: 7px;
 
 }
 .box{
@@ -61,13 +64,14 @@ padding: 5px 10px;
   gap:15px;
   flex-direction: column;
 }
-.steps{box-sizing: border-box;margin-top: 70px; margin-left: 40%; margin-bottom: 30px;  padding-right: 2px;}
+.steps{box-sizing: border-box; margin-top: 70px; margin-left: 30%; margin-bottom: 30px; margin-right: 200px;  padding-right: 2px;}
 .steps h1{
-  margin: 30px 0px;
+  margin: 20px 0px;
   font-size: 40px;
-  text-decoration: underline;
+  text-decoration: underline; text-align: center;
+  background-color: #002E96; color: white;
 }
-h3{color: #002E96;}
+h3{color: black}
 
 label{font-size:20px;}
 input{padding:10px 0px}
@@ -77,3 +81,5 @@ input{padding:10px 0px}
 .steps ol h3{
   line-height: 50px;
 }
+ol li::marker{color:black;}
+P{color: #002E96;}
