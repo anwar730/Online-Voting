@@ -184,6 +184,9 @@ padding-top: 20px;
     padding-top: 20px;
 
 }
+legend h1{
+    color: white;
+}
 .vote{
     height: 300px;
 }
