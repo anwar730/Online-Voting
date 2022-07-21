@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>register</title>
-    <link rel="stylesheet" href="register.css">
-    <link rel="stylesheet" href="assets/images">
+    <link rel="stylesheet" href="./register.css">
+    <link rel="stylesheet" href="./assets/images">
 </head>
+
 <body>
     <div class="nav-bar">
         <div class="logo">
@@ -21,67 +23,73 @@
 
     <div class="register">
         <div class="image1">
-            <img src="assets/images/profile.png" height="700px" width="700px" alt="profilepic">
+            <img src="./assets/images/profile.png" height="700px" width="700px" alt="profilepic">
         </div>
-      <div class="form">
-        <div class="title"> REGISTRATION FORM</div>
-        <div class="box">
-            <label for="name">Name</label>
-            <input &nbsp;&nbsp;&nbsp;type="text" placeholder="Please enter you name ">
-        <label for="Date"> Date of birth</label>
-         <input type="text" placeholder="Please enter your date of birth"> 
-        <label for="Email">Email</label>
-        <input type="text" placeholder="Enter your email adress">
-        <label for="Enter">Enter password</label>
-        <input type="password" placeholder="Create your password">
-       <label for="Re-enter">Re-enter Password</label>
-        <input type="password" placeholder="Re-enter your password">
-        <label for="Voter"> Voters ID</label>
-        <input type="text" placeholder="Enter your voter ID number">
+        <div class="form">
+            <div class="title"> REGISTRATION FORM</div>
+            <div class="box">
+                <label for="name">Name</label>
+                <input &nbsp;&nbsp;&nbsp;type="text" id="name" placeholder="Please enter you name ">
+                <label for="Date"> Date of birth</label>
+                <input type="text" id="date" placeholder="Please enter your date of birth">
+                <label for="email">Email</label>
+                <input type="text"  id="email" placeholder="Enter your email adress">
+                <label for="Enter">Enter password</label>
+                <input type="password" id="password" placeholder="Create your password">
+                <label for="Re-enter">Re-enter Password</label>
+                <input type="password" id="reEnter" placeholder="Re-enter your password">
+                <label for="Voter"> Voters ID</label>
+                <input type="text" id="vote" placeholder="Enter your voter ID number">
+                <a href="./login.html" target="_blank" id="submit">Submit</a>
 
-            <a href="./login.html" target="_blank" id="submit">Submit</a>
-
-</div>
-</div>
-    </div> 
-<div class="steps">
-    <h1>Steps to follow</h1>
-    <ol>
-        <div class="one"><li><h3>Enter the voters full name using the order below.</h3>
-            <p>surname firstname middlename</p>
-        </li></div>
-        <div class="two"><li>
-            <h3>Enter your date of birth</h3>
-            <p>dd/mm/yr</p>
-        </li></div>
-        <div class="three"><li>
-            <h3>Enter your email address, if you don't have an email address you can skip the step.</h3>
-        </li></div>
-          <div class="four"><li><h3>Create a strong password which will be easy enough for you to remember.</h3>
-          <p>it must include a Capital letter,a number and a symbol.</p>
-          </li></div>
-          <div class="five"><li><h3>Re-enter the same password you put before and confirm to make sure its similar to the one put above it.</h3></li></div>
-          <div class="6"><li>
-            <h3>Enter your voter registration ID</h3>
-          </li></div>
-          <li><h3>Click on the submit button</h3></li>
+            </div>
+        </div>
+    </div>
+    <div class="steps">
+        <h1>Steps to follow</h1>
+        <ol>
+            <div class="one">
+                <li>
+                    <h3>Enter the voters full name using the order below.</h3>
+                    <p>surname firstname middlename</p>
+                </li>
+            </div>
+            <div class="two">
+                <li>
+                    <h3>Enter your date of birth</h3>
+                    <p>dd/mm/yr</p>
+                </li>
+            </div>
+            <div class="three">
+                <li>
+                    <h3>Enter your email address, if you don't have an email address you can skip the step.</h3>
+                </li>
+            </div>
+            <div class="four">
+                <li>
+                    <h3>Create a strong password which will be easy enough for you to remember.</h3>
+                    <p>it must include a Capital letter,a number and a symbol.</p>
+                </li>
+            </div>
+            <div class="five">
+                <li>
+                    <h3>Re-enter the same password you put before and confirm to make sure its similar to the one put
+                        above it.</h3>
+                </li>
+            </div>
+            <div class="6">
+                <li>
+                    <h3>Enter your voter registration ID</h3>
+                </li>
+            </div>
+            <li>
+                <h3>Click on the submit button</h3>
+            </li>
         </ol>
-        
-</div>
 
-  
-    
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-<script src="assets/register.js"></script>
+    <script src="./assets/register.js"></script>
 </body>
+
 </html>
